@@ -1,0 +1,11 @@
+activar venv
+"source .venv/bin/activate"
+
+desactivar venv
+deactivate
+
+
+testear
+"pytest"
+
+python -m pytest

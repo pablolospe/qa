@@ -114,7 +114,8 @@ def eliminar_producto(id_producto):
     productos.remove(producto_a_borrar)
     print(f"Producto con ID {id_producto} eliminado exitosamente.")
  
-def buscar_por_precio():
+def buscar_por_precio_maximo( productos, precio_maximo ):
+
     print()
 
 def mostrar_estadisticas():

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "pytest": {
+      "source": "gentleman-programming/gentleman-skills",
+      "sourceType": "github",
+      "skillPath": "curated/pytest/SKILL.md",
+      "computedHash": "8bf87b55ecc72cd9790eb985ba0d8e804d0c0a9be58b2ae02c963bbb6b5abc56"
+    },
+    "python-expert-best-practices-code-review": {
+      "source": "wispbit-ai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/python-expert-best-practices-code-review/SKILL.md",
+      "computedHash": "d9acfe21c5b56c6b6cadebd375797deb97f0cc0a0b35cf0a6fa5f37fd03a7b86"
+    }
+  }
+}
