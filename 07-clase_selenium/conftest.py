@@ -9,7 +9,7 @@ def driver():
     service = Service(ChromeDriverManager().install()) # Configura el servicio del driver de Chrome
     options = webdriver.ChromeOptions()
     # options.add_argument("--start--maximized")  # Start Chrome maximized
-    driver = webdriver.Chrome(service=service, options=options)
+    driver = webdriver.Chrome(service=service, options=options) # Crea una instancia del driver de Chrome con las opciones configuradas
 
     yield driver # Entrega la instancia del driver al test
     driver.quit() # Cierra el navegador después de que el test haya terminado
